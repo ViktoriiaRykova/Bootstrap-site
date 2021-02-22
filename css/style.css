@@ -1,0 +1,203 @@
+﻿body {
+    font-family: sans-serif;
+    font-size: 16px;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+}
+
+/*BUTTONS*/
+.btn_circle {
+    margin-top: 135px;
+    color: #7b7b7b;
+    border: none;
+    font-size: 50px;
+    padding: 0;
+    background: no-repeat;
+    
+}
+.btn_rect {
+    color: #fdfdfd;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    background: no-repeat;
+    border: none;
+}
+    .btn_rect:hover {
+        color: #ffb84a;
+        
+    }
+
+/*HEADER*/
+header {
+    height: 600px;
+    background-color: #000000;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+nav {
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.navbar-brand>img {
+    display: block;
+    width: 200px;
+    height: 80px;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+    .menu li {
+        display: inline-block;
+        padding: 0 30px;
+        margin-top: 30px;
+    }
+
+        .menu li a {
+            color: #ffffff;
+            text-transform: uppercase;
+            font-family: 'RalewayBold', sans-serif;
+        }
+
+            .menu li a:hover,
+            .menu li a:focus {
+                text-decoration: none;
+                color: #808080;
+            }
+
+.logo {
+    padding-top: 10px;
+}
+
+.title_block {
+    text-align: center;
+    
+}
+
+    .title_block h1 {
+        font-size: 50px;
+        color: #6a6a6a;
+        text-transform: uppercase;
+        padding-top: 120px;
+    }
+
+    .title_block p {
+        font-size: 24px;
+        color: #5a5a5a;
+        padding-top: 50px;
+    }
+
+/*SECTION ABOUT US*/
+.about_us {
+    padding: 0;
+}
+
+.about_photo img{
+    height: 310px;
+    width: 450px;
+    padding-top: 40px;
+}
+.about_info{
+    padding: 40px 0 0 0;
+}
+.about_info h3 {
+    color: #9b9b9b;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+    .about_info h2 {
+        color: #444444;
+        font-size: 40px;
+        text-transform: uppercase;
+       
+    }
+.about_info p {
+    color: #a6a6a6;
+    font-size: 16px;
+    padding-top: 40px;
+}
+
+/*SECTION TEAM*/
+.team {
+    padding-bottom: 30px;
+    background-color: #000000;
+    padding-top: 50px;
+    position: relative;
+    text-align: center;
+}
+    .team h1 {
+        font-size: 50px;
+        color: #898989;
+        text-transform: uppercase;
+       
+    }
+    .team_info{
+       padding-top: 90px;
+    }
+    .team_block img{
+        width: 200px;
+        height: 200px;
+    }
+    .team_block h3 {
+        color: #757575;
+    }
+    .team_block p {
+        color: #6a6a6a;
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+/*SECTION SERVICES*/
+.services {
+    padding-top: 50px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.services h1 {
+    font-size: 50px;
+    color: #5e5e5e;
+    text-transform: uppercase;
+}
+.about_servis p {
+    font-size: 16px;
+    padding: 10px 0;
+    color: #6a6a6a;
+}
+.menu_servis{
+    margin-top: 50px;
+}
+.image_servis {
+    text-align: center;
+    color: #010101;
+    background: no-repeat;
+    width: 200px;
+    height: 200px;
+    border: 5px solid #faa032;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+}
+    .image_servis svg {
+        font-size: 200px;
+        padding: 50px;
+    }
+    .image_servis h3 {
+        color: #3f3f3f;
+        font-size: 24px;
+        text-transform: uppercase;
+    }
+    .image_servis p {
+        font-size: 16px;
+        padding: 10px 0;
+        color: #8d8d8d;
+    }
